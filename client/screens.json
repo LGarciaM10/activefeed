@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "informationcenter",
+      "name": "informationcenter",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "informationcenter"
     }
   ],
   "sourceAppId": "_blank",

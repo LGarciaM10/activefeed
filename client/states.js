@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.informationcenter', {
+        views: {
+            app: {
+                controller: 'app_informationcenter',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.informationcenter');
+                }
+            }
+        }
     });
 });
