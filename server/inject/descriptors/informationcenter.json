@@ -37,7 +37,7 @@
           }
         }
       },
-      "selectorAll": "#MyTable tbody"
+      "selectorAll": "#MyTable tbody tr[moduleid]"
     }
   },
   "connect": []
