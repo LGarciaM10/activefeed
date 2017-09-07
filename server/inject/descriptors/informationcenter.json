@@ -28,7 +28,10 @@
             "type": "string",
             "selector": "td",
             "selectIndex": 4,
-            "control": "property.innerText"
+            "control": {
+              "fn": "function(param){return param}",
+              "control": "property.innerText"
+            }
           },
           "environment": {
             "type": "string",
