@@ -1,18 +1,13 @@
 {
   "tabs": [
     {
-      "name": "Tab One",
+      "name": "Details",
       "icon": "ion-ios-information",
       "selected": true
     },
     {
-      "name": "Tab Two",
-      "icon": "ion-ios-bell",
-      "selected": false
-    },
-    {
-      "name": "Tab Three",
-      "icon": "ion-help-buoy",
+      "name": "Logs",
+      "icon": "ion-android-calendar",
       "selected": false
     }
   ]
