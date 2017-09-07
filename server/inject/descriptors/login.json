@@ -16,10 +16,6 @@
       "screens": [
         "login"
       ]
-    },
-    {
-      "match": [],
-      "event": "testRest"
     }
   ]
 }
