@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isBlankView": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "exists"
+    }
+  },
   "connect": []
 }
