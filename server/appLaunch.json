@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/activefeed/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>activefeed/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>activefeed/smartuxApp.json"
+  }
+}
