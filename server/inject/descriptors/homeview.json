@@ -3,8 +3,9 @@
   "properties": {
     "ishomeview": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": ".dropdown-toggle",
+      "control": "exists",
+      "selectContains": "Active Feed"
     }
   },
   "connect": []
