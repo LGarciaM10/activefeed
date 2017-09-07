@@ -41,7 +41,10 @@
             "format": "MM/DD/YYYY HH:mm:ss"
           },
           "schedule": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 2,
+            "control": "property.innerText"
           }
         }
       },
