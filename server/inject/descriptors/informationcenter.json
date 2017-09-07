@@ -8,7 +8,9 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "selector": ".row-id",
+            "control": "text"
           },
           "name": {
             "type": "string"
