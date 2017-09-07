@@ -19,7 +19,10 @@
             "control": "property.innerText"
           },
           "type": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 1,
+            "control": "property.innerText"
           },
           "status": {
             "type": "string"
