@@ -34,7 +34,7 @@
             "type": "string",
             "selector": "td",
             "selectIndex": 3,
-            "control": "property.className"
+            "control": "text"
           },
           "region": {
             "type": "string"
