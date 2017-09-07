@@ -4,7 +4,7 @@
   "properties": {
     "islogin": {
       "type": "identifier",
-      "selector": "title",
+      "selector": "head",
       "control": "exists"
     }
   },
