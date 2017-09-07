@@ -28,7 +28,10 @@
             "type": "string"
           },
           "environment": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 3,
+            "control": "property.className"
           },
           "region": {
             "type": "string"
