@@ -61,6 +61,11 @@
         }
       },
       "selectorAll": "#MyTable tbody tr[moduleid]"
+    },
+    "isInformationCenter": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [
