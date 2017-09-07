@@ -10,7 +10,7 @@
           "id": {
             "type": "string",
             "selector": "td",
-            "control": "text"
+            "control": "property.innerText"
           },
           "name": {
             "type": "string"
