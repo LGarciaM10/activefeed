@@ -32,7 +32,7 @@
           },
           "environment": {
             "type": "string",
-            "selector": "td[0]",
+            "selector": "td span",
             "selectIndex": 3,
             "control": "property.className"
           },
