@@ -63,5 +63,12 @@
       "selectorAll": "#MyTable tbody tr[moduleid]"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "informationcenter"
+      ]
+    }
+  ]
 }
