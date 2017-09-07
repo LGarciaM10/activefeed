@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "comment": "issueslist",
+  "properties": {
+    "feedlist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "environment": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "lastexecution": {
+            "type": "date",
+            "format": "MM/DD/YYYY HH:mm:ss"
+          },
+          "schedule": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "connect": []
+}
