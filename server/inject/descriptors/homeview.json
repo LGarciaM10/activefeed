@@ -6,6 +6,12 @@
       "selector": ".dropdown-toggle",
       "control": "exists",
       "selectContains": "Active Feed"
+    },
+    "informationcenter": {
+      "type": "action",
+      "selector": "a[href]",
+      "control": "action.button",
+      "selectContains": "Information Center"
     }
   },
   "connect": []
