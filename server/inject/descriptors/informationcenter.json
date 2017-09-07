@@ -14,7 +14,9 @@
             "selectHidden": true
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
           },
           "type": {
             "type": "string"
