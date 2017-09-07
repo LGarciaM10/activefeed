@@ -28,16 +28,13 @@
             "type": "string",
             "selector": "td",
             "selectIndex": 4,
-            "control": {
-              "fn": "",
-              "control": "property.innerText"
-            }
+            "control": "property.innerText"
           },
           "environment": {
             "type": "string",
             "selector": "td",
             "selectIndex": 3,
-            "control": "property.className"
+            "control": "property.innerText"
           },
           "region": {
             "type": "string"
