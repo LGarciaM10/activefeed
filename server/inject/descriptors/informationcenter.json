@@ -36,7 +36,8 @@
             "type": "string"
           }
         }
-      }
+      },
+      "selectorAll": "#MyTable"
     }
   },
   "connect": []
