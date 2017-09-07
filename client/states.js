@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.feeddetail', {
+        views: {
+            app: {
+                controller: 'app_feeddetail',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.feeddetail');
+                }
+            }
+        }
     });
 });

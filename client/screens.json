@@ -34,6 +34,13 @@
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
       "sourceAppId": "universaltemplates",
       "model": "informationcenter"
+    },
+    {
+      "id": "feeddetail",
+      "name": "feeddetail",
+      "sourceScreenId": "app.tabbednavigation.tabscool",
+      "sourceAppId": "universaltemplates",
+      "model": "feeddetail"
     }
   ],
   "sourceAppId": "_blank",
