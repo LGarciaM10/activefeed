@@ -35,9 +35,9 @@
           },
           "environment": {
             "type": "string",
-            "selector": "td span",
+            "selector": "td",
             "selectIndex": 3,
-            "control": "property.className"
+            "control": "property.innerHTML"
           },
           "region": {
             "type": "string"
