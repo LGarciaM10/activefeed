@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "c317b93e",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlgalui"
+  "creatorId": "gdlgalui",
+  "id": "activefeed",
+  "previewImageURL": "/previews/c317b93e-activefeed/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/LGarciaM10/activefeed",
+  "creatorName": "Luis Fernando Garcia Miranda"
 }
