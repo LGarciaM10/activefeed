@@ -38,7 +38,7 @@
             "selector": "td",
             "selectIndex": 3,
             "control": {
-              "fn": "function(param){if(param.includes('feedEnviroment off')){return 'Stage'}else{return 'Production'}}",
+              "fn": "function(param){if(param.indexOf('feedEnviroment off')){return 'Stage'}else{return 'Production'}}",
               "control": "property.innerHTML"
             }
           },
