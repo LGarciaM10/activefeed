@@ -21,7 +21,9 @@
       "type": "string"
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": "#okta-signin-submit",
+      "control": "action.button"
     }
   },
   "connect": [
