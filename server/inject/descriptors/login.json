@@ -13,7 +13,9 @@
       "control": "text"
     },
     "password": {
-      "type": "string"
+      "type": "string",
+      "selector": "input[name='password']",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string"
