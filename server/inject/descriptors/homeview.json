@@ -14,5 +14,12 @@
       "selectContains": "Information Center"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "ishomeview"
+      ],
+      "action": "informationcenter"
+    }
+  ]
 }
