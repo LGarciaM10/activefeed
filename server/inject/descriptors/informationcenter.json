@@ -70,7 +70,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isInformationCenter"
+      ],
       "screens": [
         "informationcenter"
       ]
