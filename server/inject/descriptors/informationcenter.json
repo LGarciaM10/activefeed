@@ -65,7 +65,8 @@
     "isInformationCenter": {
       "type": "identifier",
       "control": "exists",
-      "selector": "#MyTable"
+      "selector": "h2",
+      "selectContains": "Feed"
     }
   },
   "connect": [
