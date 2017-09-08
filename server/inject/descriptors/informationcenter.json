@@ -29,7 +29,7 @@
             "selector": "td",
             "selectIndex": 4,
             "control": {
-              "fn": "function(param){if(true){return 'On'}else{return 'Off'}}",
+              "fn": "function(param){if(param.indexOf('On')){return 'On'}else{return 'Off'}}",
               "control": "property.innerText"
             }
           },
