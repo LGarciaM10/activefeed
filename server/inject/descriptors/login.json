@@ -18,7 +18,8 @@
       "control": "text"
     },
     "errorMessage": {
-      "type": "string"
+      "type": "string",
+      "selector": ".o-form-error-container"
     },
     "submit": {
       "type": "action",
