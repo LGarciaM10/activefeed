@@ -8,7 +8,9 @@
       "control": "exists"
     },
     "username": {
-      "type": "string"
+      "type": "string",
+      "selector": "input[name='Username']",
+      "control": "text"
     },
     "password": {
       "type": "string"
