@@ -3,9 +3,9 @@
   "properties": {
     "ishomeview": {
       "type": "identifier",
-      "selector": ".dropdown-toggle",
+      "selector": ".btn.btn-primary.btn-lg",
       "control": "exists",
-      "selectContains": "Active Feed"
+      "selectContains": "Information"
     },
     "informationcenter": {
       "type": "action",
