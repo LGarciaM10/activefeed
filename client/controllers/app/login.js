@@ -39,10 +39,14 @@ function app_login($scope, app, $q) {
         localStorage.clear();
     };
     $scope.login = function () {
-        $scope.doLogin({
+        //$scope.doLogin({
+        //    username: $scope.data.username,
+        //    password: $scope.data.password
+        //}, false);
+        app.loginBasic({
             username: $scope.data.username,
             password: $scope.data.password
-        }, false);
+        }, false)
     };
     $scope.doLogin = function (credentials, useWebsocket) {
         $scope.app.showLoading('Logging in');
